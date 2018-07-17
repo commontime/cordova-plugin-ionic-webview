@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-ionic-webview",
-  "version": "1.1.16",
+  "version": "2.0.0-beta.2",
   "description": "The official Ionic's WKWebView Engine Plugin",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,15 @@
   "author": "Ionic Team",
   "license": "Apache-2.0",
   "devDependencies": {
-    "np": "^2.16.0",
+    "np": "^3.0.4",
     "sync-cordova-xml": "^0.4.0"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova-android": ">=6.4.0",
+        "cordova-ios": ">=4.0.0-dev"
+      }
+    }
   }
 }
