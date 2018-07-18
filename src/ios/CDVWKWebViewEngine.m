@@ -157,7 +157,7 @@
     //bind to designated hostname or default to localhost
     NSString *bind = [settings cordovaSettingForKey:@"WKBind"];
     if(bind == nil){
-        bind = @"localhost";
+        bind = @"127.0.0.1";
     }
 
     //bind to designated port or default to 8080
